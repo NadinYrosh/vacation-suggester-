@@ -3,5 +3,34 @@
 }
 
 img {
-  width: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px;
 }
+ body {
+   background-color: #EBF5F3;
+   font-family: Century Gothic;
+   text-align: center;
+ }
+ h1, h2 {
+   font-family: cursive;
+   text-align: center;
+ }
+
+ .form-group {
+   width: 250px;
+   margin: auto;
+   text-align: center;
+   margin-top: 40px;
+ }
+
+ button {
+   margin: 20px;
+   margin-bottom: 20px;
+   border-radius: 24px;
+ }
+
+ .sugestions {
+   margin: 20px;
+ }
