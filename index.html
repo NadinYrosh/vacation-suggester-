@@ -3,13 +3,54 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Vacation-suggester</title>
   </head>
   <body>
     <div class="container">
       <h1>Looking for vacation place?</h1>
+      <div class="form-group">
+        <h4>Do you want to be active?</h4>
+        <select class="form-control" id="active">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+
+        <div class="form-group">
+          <h4> What kind of weather do you prefer?</h4>
+          <select class="form-control" id="weather">
+            <option>Hot</option>
+            <option>Cold</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <h4>Do you like adrenaline?</h4>
+          <select class="form-control" id="adrenaline">
+            <option>Yes</option>
+            <option>NO!</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <h4>Are you with your family or solo?</h4>
+          <select class="form-control" id="company">
+            <option>With family</option>
+            <option>Solo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <h4>Do you want to stay within USA borders?</h4>
+          <select class="form-control" id="cuntry">
+            <option>Yes</option>
+            <option>Doesn't matter</option>
+          </select>
+        </div>
+        
+       <button type="submit" class="btn">Submit</button>
     </div>
   </body>
 </html>
