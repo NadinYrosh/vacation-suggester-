@@ -1,6 +1,6 @@
 # _ Vacation Suggester_
 
-#### _Simple Vacation suggester , 24/03.2016_
+#### _Simple Vacation suggester , 24/03/2016_
 
 #### By _**Nadiya Yeroshkina**_
 
