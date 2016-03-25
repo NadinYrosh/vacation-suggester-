@@ -1,12 +1,24 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function(event) {
+  $("#blanks").submit(function(event) {
+    debugger;
     event.preventDefault();
 
-    var active = $("#active").val();
-    var weather = $("#weather").val();
-    var adrenaline = $("#adrenaline").val();
-    var accompany = $("#accompany").val();
-    var cuntry = $("#cuntry").val();
+    var activeInput = $("#active").val();
+    var weatherInput = $("#weather").val();
+    var adrenalineInput = $("#adrenaline").val();
+    // var accompanyInput = $("#accompany").val();
+    // var cuntryInput = $("#cuntry").val();
 
-  }
+    if (weatherInput === 'Hot' && adrenalineInput === "Yes" ) {
+      $(".sugestion1").show();
+    }
+    else if (weatherInput === "Cold" && adrenalineInput === "NO!") {
+      $(".sugestion2").show();
+    }
+    else if (weatherInput === "Cold" && adrenalineInput === "Yes") {
+      $(".sugestion4").show();
+    // else if (weatherInput === "Cold" && adrenalineInput === "Yes") {
+    //   $(".sugestion4").show();
+    }
+  });
 });
