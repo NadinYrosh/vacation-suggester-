@@ -4,6 +4,8 @@
 
 #### By _**Nadiya Yeroshkina**_
 
+### [Click here] (http://nadinyrosh.github.io/vacation-suggester-/)
+
 ## Description
 
 _This is e very basic suggester for your future vacation. _
