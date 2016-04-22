@@ -1,4 +1,4 @@
-# _ Vacation Suggester_
+# Vacation Suggester
 
 #### _Simple Vacation suggester , 24/03/2016_
 
@@ -25,7 +25,7 @@ _Please let m know if you have questions._
 
 ## Technologies Used
 
-_HTMS, CSS, Java Script, JQuey, Bootstarp._
+_HTMS, CSS, Java Script, JQuery, Bootstrap_
 
 ### License
 
